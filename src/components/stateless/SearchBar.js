@@ -6,7 +6,7 @@ export default function SearchBar(props) {
     return (
         <div>
             <form action="" method="POST">
-                <input type="text" id="searchBar" placeholder="What are you jammming to today?" onChange={props.handleChange}
+                <input type="text" id="searchBar" placeholder="Jam away" onChange={props.handleChange}
                 value={props.searchBarText}/>
             </form>
         </div>

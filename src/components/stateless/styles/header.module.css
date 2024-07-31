@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('./Kanit/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: '';
+    src: url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+}
+
+.navElement {
+    height: 4.375rem;
+    width: 100%;
+    background-color: rgb(23, 206, 105);
+    border-bottom: 0.125rem solid rgb(185, 244, 212);
+}
+
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.375rem;
+}
+
+.navbarLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Kanit';
+    width: 40%;
+    padding-left: 2.188rem;
+}
+
+.navbarLogoContainerText {
+    font-size: 2.5rem;
+    margin: 0 0;
+}
+
+.navbarLoginButtonContainer {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2.188rem;
+}
+
+.spotifyLoginButton {
+    background-color: rgb(185, 244, 212);
+    color: rgb(39, 44, 38);
+    box-shadow: 0.125rem 0.2rem rgb(161, 215, 185);
+    border-radius: 0.7rem;
+    width: auto;
+    height: 3rem;
+    font-family: 'Kanit';
+}
+
+.mmm {
+    color:rgb(8, 52, 28);
+}

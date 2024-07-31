@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import SearchBar from '../stateless/SearchBar';
-import ResultsContainer from './ResultsContainer';
+import SearchResults from '../stateless/SearchResults';
+import TrackList from '../stateless/TrackList';
+import styles from "./pageContainer.module.css";
 
 // Main stateful component, controlling everything outside of header and footer
 
@@ -15,7 +17,7 @@ const handleSearchBarChange = ({target}) => {
 }
 
 return (
-    <div>
+    <div className={styles.pageMainContainer}>
         <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText}/>
     </div>
 );
