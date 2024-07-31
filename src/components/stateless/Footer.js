@@ -1,12 +1,12 @@
 import React from 'react';
-
+import styles from './styles/Footer.module.css';
 // Presentational, stateless component
 
 export default function Footer() {
     return (
         <footer>
-            <div className="footer-container">
-                <h4><span>Jammming</span> is a Codecademy portfolio project</h4>
+            <div className={styles.footerContainer}>
+                <h4 className={styles.h4}><span className={styles.jammming}>Jammming</span> is a Codecademy portfolio project</h4>
             </div>
         </footer>
     );

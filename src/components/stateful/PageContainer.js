@@ -18,7 +18,12 @@ const handleSearchBarChange = ({target}) => {
 
 return (
     <div className={styles.pageMainContainer}>
-        <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText}/>
+        <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText} className={styles.searchBar} id="searchbar"/>
+        <div className={styles.pageSubContainer}>
+            <SearchResults className={styles.searchResults} />
+            <TrackList className={styles.trackList}/>
+        </div>
+
     </div>
 );
 

@@ -1,6 +1,17 @@
 .pageMainContainer {
     display: flex;
+    flex-direction: column;
     width: 100%;
+    min-height: 100vh;
     min-width: 0;
     background-color: rgb(19, 19, 19);
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.pageSubContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
 }

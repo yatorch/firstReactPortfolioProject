@@ -8,16 +8,13 @@
     src: url('./Rubik/Rubik-VariableFont_wght.ttf');
 }
 
-@font-face {
-    font-family: '';
-    src: url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
-}
+/* navbar classes below */
 
 .navElement {
     height: 4.375rem;
     width: 100%;
     background-color: rgb(23, 206, 105);
-    border-bottom: 0.125rem solid rgb(185, 244, 212);
+    border-bottom: 0.125rem solid rgb(17, 56, 35);
 }
 
 .navbarContainer {
