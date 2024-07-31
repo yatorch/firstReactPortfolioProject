@@ -19,4 +19,5 @@ The goal of this ReactJS portfolio app is to do the following:
 * JS
 * React
 * HTTP requests and responses
+* Using APIs
 * Authentication
