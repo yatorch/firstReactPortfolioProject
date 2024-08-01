@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('./Kanit/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+}
+
 .trackListBox {
     display: flex;
     flex-direction: column;
@@ -6,4 +16,78 @@
     background-color: rgb(44, 39, 39);
     border-radius: 2rem;
     margin-bottom: 1.875rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/* Card headers and footers and associated buttons in between them */
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 30rem;
+    height: 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid rgb(74, 72, 72);
+    text-align: center;
+    background-color: rgb(44, 38, 39);
+}
+
+.inputBox {
+    background-color: rgb(44, 38, 39);
+    width: 24rem;
+    height: 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border: none;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+    font-family: 'Kanit';
+    color: rgb(163, 202, 172);
+    font-size: 1.5rem;
+}
+
+.inputBox:focus {
+    outline: none;
+}
+
+.cardFooter {
+    display: flex;
+    position: sticky;
+    top: 100%;
+    z-index: 100;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top: 2px solid rgb(74, 72, 72);
+    text-align: center;
+    background-color: rgb(44, 38, 39);
+}
+
+.addToSpotifyButton {
+    background-color: rgb(185, 244, 212);
+    color: rgb(39, 44, 38);
+    box-shadow: 0rem 0rem rgb(161, 215, 185);
+    border-radius: 0.7rem;
+    width: auto;
+    height: 3rem;
+    font-family: 'Kanit';
+    transition-duration: 0.1s;
+}
+
+.addToSpotifyButton:active {
+    background-color: rgb(117, 178, 145);
+    box-shadow: 0 0;
+    transition-duration: 0.1s;
+    margin-top: 1.25rem;
+    margin-bottom: 0.938rem;
 }
