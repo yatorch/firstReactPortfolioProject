@@ -1,6 +1,7 @@
 import React from 'react';
 import TrackList from './TrackList';
 import styles from './styles/SearchResults.module.css';
+import Track from './Track';
 
 // Stateless component, containing the search results
 

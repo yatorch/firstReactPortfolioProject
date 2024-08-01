@@ -7,7 +7,7 @@ import styles from './styles/Track.module.css';
 export default function Track(props) {
     return (
         <div className={styles.trackMainContainer}>
-            
+            TRACK TRACK TRACK
         </div>
     )
 }

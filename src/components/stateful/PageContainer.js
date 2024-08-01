@@ -23,6 +23,10 @@ const handlePlaylistNameChange = ({target}) => {
     setPlaylistName(target.value);
 }
 
+// defining handler functions for 
+
+
+
 return (
     <div className={styles.pageMainContainer}>
         <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText} className={styles.searchBar} id="searchbar"/>
