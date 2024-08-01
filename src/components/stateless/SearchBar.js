@@ -6,7 +6,8 @@ export default function SearchBar(props) {
     return (
         <div className={styles.searchBarDiv}>
             <form action="" method="POST">
-                <input type="text" id="searchBar" placeholder="Jam away" onChange={props.handleChange}
+                
+                <input type="text" id="searchBar" placeholder="Search for your favorite songs and artists" onChange={props.handleChange}
                 value={props.searchBarText} className={styles.searchBar}/>
             </form>
         </div>

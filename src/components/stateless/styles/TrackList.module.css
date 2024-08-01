@@ -1,6 +1,9 @@
 .trackListBox {
+    display: flex;
+    flex-direction: column;
     height: 35rem;
     width: 30rem;
     background-color: rgb(44, 39, 39);
     border-radius: 2rem;
+    margin-bottom: 1.875rem;
 }

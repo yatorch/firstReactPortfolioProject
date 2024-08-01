@@ -8,7 +8,9 @@ export default function SearchResults(props) {
     return (
 
             <div className={styles.searchResultsBox}>
-
+                <div className={styles.cardHeader}>
+                    <h2 className={styles.cardHeaderText}>Results</h2>
+                </div>
             </div>
             
     );

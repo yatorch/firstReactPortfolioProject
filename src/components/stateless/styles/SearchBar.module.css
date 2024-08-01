@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('./Kanit/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
 .searchBarDiv {
     display: flex;
     width: 100%;
@@ -18,5 +23,13 @@
 
 .searchBar:focus {
     outline: none;
-    
+}
+
+.sbLabel {
+    font-family: 'Kanit';
+    color: snow;
+}
+
+.mmm {
+    color: rgb(78, 142, 115);
 }
