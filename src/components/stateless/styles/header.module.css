@@ -55,6 +55,15 @@
     width: auto;
     height: 3rem;
     font-family: 'Kanit';
+    transition-duration: 0.4s;
+}
+
+.spotifyLoginButton:active {
+    background-color: rgb(117, 178, 145);
+    box-shadow: 0 0;
+    transition-duration: 0.2s;
+    margin-top: 1.25rem;
+    margin-bottom: 0.938rem;
 }
 
 .mmm {
