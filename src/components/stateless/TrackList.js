@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles/TrackList.module.css';
+import Track from './Track';
 // Stateless component, containing the tracklist to be added to user's Spotify
 
 export default function TrackList(props) {
@@ -12,10 +13,9 @@ export default function TrackList(props) {
                 </form>
             </div>
 
-
             <div className={styles.cardFooter}>
                 <button form="userPlayListName" type="button" className={styles.addToSpotifyButton}>Add to Spotify</button>
             </div>
         </div>
-    )
+    );
 }
