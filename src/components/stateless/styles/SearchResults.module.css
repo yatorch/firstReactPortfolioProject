@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('./Kanit/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+}
+
+.searchResultsBox {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 30rem;
+    background-color: rgb(44, 39, 39);
+    border-radius: 2rem;
+    margin-bottom: 1.875rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.cardHeader {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid rgb(74, 72, 72);
+    text-align: center;
+    background-color: rgb(44, 38, 39);
+}
+
+.cardHeaderText {
+    color: rgb(163, 202, 172);
+    font-family: 'Kanit';
+}

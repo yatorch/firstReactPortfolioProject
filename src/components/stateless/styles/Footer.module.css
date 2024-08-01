@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('./Kanit/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 2.5rem;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(23, 206, 105);
+}
+
+.jammming {
+    font-family: 'Kanit';
+}
+
+.h4 {
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+}
