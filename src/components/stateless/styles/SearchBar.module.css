@@ -5,6 +5,7 @@
 
 .searchBarDiv {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     grid-template-rows: 1rem;
     margin-top: 3rem;
@@ -32,4 +33,22 @@
 
 .mmm {
     color: rgb(78, 142, 115);
+}
+
+.searchByButton {
+    background-color: rgb(119, 193, 152);
+    color: rgb(39, 44, 38);
+    box-shadow: 0rem 0rem rgb(161, 215, 185);
+    border-radius: 0.7rem;
+    width: 6rem;
+    height: 3rem;
+    font-family: 'Kanit';
+    transition-duration: 0.1s;
+    margin: 0 0.5rem;
+}
+
+.searchByButton:hover {
+    background-color: rgb(117, 178, 145);
+    box-shadow: 0 0;
+    transition-duration: 0.1s;
 }
