@@ -12,6 +12,7 @@ export default function PageContainer(props) {
 
 const [searchBarText, setSearchBarText] = useState('');
 const [playlistName, setPlaylistName] = useState('');
+const [searchByType, setSearchByType] = useState(['track']);
 
 // defining handler functions for text input fields
 
@@ -23,13 +24,17 @@ const handlePlaylistNameChange = ({target}) => {
     setPlaylistName(target.value);
 }
 
+const handleSearchByChange = ({target}) => {
+    setSearchByType([target.value]);
+}
 // defining handler functions for 
 
 
 
 return (
     <div className={styles.pageMainContainer}>
-        <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText} className={styles.searchBar} id="searchbar"/>
+        <SearchBar handleChange={handleSearchBarChange} searchBarText={searchBarText} className={styles.searchBar} id="searchbar"
+        handleSearchByChange={handleSearchByChange} searchByType={searchByType}/>
         <div className={styles.pageSubContainer}>
             <SearchResults className={styles.searchResults} />
             <TrackList className={styles.trackList} playlistName={playlistName} handlePlaylistNameChange={handlePlaylistNameChange}/>

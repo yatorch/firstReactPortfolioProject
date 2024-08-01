@@ -52,3 +52,26 @@
     box-shadow: 0 0;
     transition-duration: 0.1s;
 }
+
+.searchByButton:active {
+    background-color: rgb(117, 178, 145);
+    box-shadow: 0 0;
+    transition-duration: 0.1s;
+}
+
+/*
+.inputSearchButton {
+    display: inline;
+    border: none;
+    border-left: 1px solid rgb(209, 209, 209);
+    width: 6rem;
+    height: 3rem;
+    right: 3rem;
+    position: relative;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+*/
+
